@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+
+  background-image: url("../images/psvselectie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.boss-container {
+  //  display: flex;
+    justify-content: space-around;
+  //  align-items: stretch;
+  //  align-content: center;
+    flex-direction:row;
+}
+
+
+/* Navigatie*/
+.topnav {
+  background-color: red;
+  overflow: hidden;
+//  float: top;
+}
+
+.topnav a {
+  float: top;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 25px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+
+}
+
+.flexbox-item-1{
+  min-height: 300px;
+  background-color: red;
+}
+
+.flexbox-item-2{
+  min-height: 300px;
+  background-color: white;
+}
+
+.flexbox-item-3 {
+  min-height: 300px;
+  background-color: red;
+}
+
+.flexbox-item-4 {
+  min-height: 300px;
+  background-color: white;
+}
